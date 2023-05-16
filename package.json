@@ -1,7 +1,7 @@
 {
   "name": "@bartekck/mt-test-package",
-  "main": "./src/app.ts",
-  "types": "./src/app.ts",
+  "main": "./dist/src/app.js",
+  "types": "./dist/src/app.d.ts",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
