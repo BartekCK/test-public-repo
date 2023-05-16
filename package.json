@@ -1,11 +1,16 @@
 {
   "name": "@bartekck/mt-test-package",
-  "version": "1.0.0",
+  "main": "./src/app.ts",
+  "types": "./src/app.ts",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/app.ts"
+  },
+  "exports": {
+    ".": "./dist/app.js"
   },
   "author": "",
   "license": "ISC",
